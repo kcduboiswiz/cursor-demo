@@ -11,7 +11,7 @@ on:
       - main
 
 env:
-  REGISTRY: kcdwizlabsacrdev
+  REGISTRY: ${{ vars.acr_registry }}
   IMAGE_NAME: vibed-api
 
 jobs:
